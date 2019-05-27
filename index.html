@@ -57,7 +57,7 @@
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li class="has-children">
-                  <a href="single.html">Gallery</a>
+                  <a href="single.html">Albums</a>
                   <ul class="dropdown">
                     <li><a href="#">Nature</a></li>
                     <li><a href="#">Portrait</a></li>
@@ -66,19 +66,9 @@
                     <li><a href="#">Animals</a></li>
                     <li><a href="#">Sports</a></li>
                     <li><a href="#">Travel</a></li>
-                    <li class="has-children">
-                      <a href="#">Sub Menu</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
                   </ul>
                 </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Find photo</a></li>
               </ul>
             </nav>
           </div>
@@ -86,9 +76,9 @@
           <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
             <div class="d-none d-xl-inline-block">
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"> <!-- Przycisk, zamiast linka do fb -->
-				  Launch demo modal
-				</button>
+                <li>
+                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                </li>
                 <li>
                   <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                 </li>
@@ -97,6 +87,9 @@
                 </li>
                 <li>
                   <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3" data-toggle="modal" data-target="#exampleModalCenter"><span data-toggle="modal" data-target="#exampleModal">Login</span></a>
                 </li>
               </ul>
             </div>
@@ -109,9 +102,9 @@
       </div>
       
     </header>
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"> <!-- Kod modala do logowania-->
-		 <form>
-		 <div class="modal-dialog modal-dialog-centered" role="document">
+    <!-- Kod modala do logowania-->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"> 
+		  <div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 			  <div class="modal-header">
 				<h5 class="modal-title" id="exampleModalCenterTitle">LOGIN</h5>
@@ -120,12 +113,7 @@
 				</button>
 			  </div>
 			  <div class="modal-body">
-				<div class="login-reg-panel">
-					<!--<div class="login-info-box">-->
-						<!--<h2>Have an account?</h2>-->
-						<!--<p>Lorem ipsum dolor sit amet</p>-->
-					<!--</div>-->
-										
+				<div class="login-reg-panel">										
 					<div class="white-panel">
 						<div class="login-show">
 							<div class="form-group"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></div>
@@ -140,7 +128,6 @@
 			  </div>
 			</div>
 		  </div>
-		  </form>
 		</div> <!-- Koniec kod modala do logowania-->
 
 
