@@ -23,4 +23,4 @@ i służyć do auto-uzupełniania prezentowanej informacji o zdjęciu, ustawieni
 
 
 
-LINK DO GOOGLE DOC: https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F14OdqSIXfFrv5eHzQpJKQReMSSQP_bl1om2EwwQKfI84%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwAR2EFrolm4wiqMBgoRAOtzyFyZM4cGBs_RRhvSyNgwF5UUCUAiljoVPyG5w&h=AT0w8QEe7ZAOS9RfA9Skq5oYia85tgS0InPdb5kDX7jCL1QBlSJRnRbmNIJtwsnSL1htQhey3su_Vr1q2vnN1QkARFrWwmfnTOdI_CH30mfbbg2J7bVBeDU9XPHoOfYSNPADSQ 
+LINK DO GOOGLE DOC: https://docs.google.com/document/d/14OdqSIXfFrv5eHzQpJKQReMSSQP_bl1om2EwwQKfI84/edit?fbclid=IwAR2EFrolm4wiqMBgoRAOtzyFyZM4cGBs_RRhvSyNgwF5UUCUAiljoVPyG5w
