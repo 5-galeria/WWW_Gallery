@@ -20,3 +20,7 @@ Możemy z niego wyczytać urządzenie, jego ustawienia (np. czy użyto lampy), d
 Z kolei korzystając z algorytmów przetwarzania obrazów (np. gotowy algorytm Viola-Jones) możemy stwierdzić, czy na zdjęciu jest osoba, 
 ile osób, czy się uśmiechają itp. W momencie wgrania zdjęcia do systemu wszystkie te dane mogą być wciągnięte do bazy 
 i służyć do auto-uzupełniania prezentowanej informacji o zdjęciu, ustawieniu porządku w albumie, a także uatrakcyjnić wyszukiwarkę.
+
+
+
+LINK DO GOOGLE DOC: https://docs.google.com/document/d/14OdqSIXfFrv5eHzQpJKQReMSSQP_bl1om2EwwQKfI84/edit?fbclid=IwAR2EFrolm4wiqMBgoRAOtzyFyZM4cGBs_RRhvSyNgwF5UUCUAiljoVPyG5w
