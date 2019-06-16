@@ -24,3 +24,5 @@ i służyć do auto-uzupełniania prezentowanej informacji o zdjęciu, ustawieni
 
 
 LINK DO GOOGLE DOC: https://docs.google.com/document/d/14OdqSIXfFrv5eHzQpJKQReMSSQP_bl1om2EwwQKfI84/edit?fbclid=IwAR2EFrolm4wiqMBgoRAOtzyFyZM4cGBs_RRhvSyNgwF5UUCUAiljoVPyG5w
+
+Link do dokumentacji: https://docs.google.com/document/d/1IEFvE8LZcVgtCWzFir_LxYnU8-LDVMDIjl4kXaeTqXc/edit?usp=sharing
