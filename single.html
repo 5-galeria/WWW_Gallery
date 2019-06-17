@@ -86,10 +86,13 @@
                                 <li>
                                     <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
                                 </li>
-                                <li>
+                                <li id="loginTop">
                                     <a href="#" class="pl-3 pr-3" data-toggle="modal"
                                         data-target="#exampleModalCenter"><span data-toggle="modal"
                                             data-target="#exampleModal">Login</span></a>
+                                </li>
+                                <li id="logoutTop" style="display: none;">
+                                    <a href="#" class="pl-3 pr-3"><span>Logout</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -106,7 +109,7 @@
 
         </header>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg m-5 upload-button" data-toggle="modal"
+        <button id="uploadButton" type="button" class="btn btn-primary btn-lg m-5 upload-button" data-toggle="modal"
             data-target="#uploadModal">
             Upload
         </button>
@@ -148,17 +151,17 @@
                             <div class="white-panel">
                                 <div class="login-show">
                                     <div class="form-group"><input type="email" class="form-control"
-                                            id="exampleInputEmail1" aria-describedby="emailHelp"
+                                            id="passEmail" aria-describedby="emailHelp"
                                             placeholder="Enter email"></div>
                                     <div class="form-group"><input type="password" class="form-control"
-                                            id="exampleInputPassword1" placeholder="Password"></div>
+                                            id="passPassword" placeholder="Password"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button id="passButton" type="submit" class="btn btn-primary" onclick="login()">Login</button>
                     </div>
                 </div>
             </div>

@@ -4,11 +4,10 @@
  	once: true
  });
 
+isLogged = false;
 jQuery(document).ready(function($) {
 
-	"use strict";
-
-	
+    "use strict";
 
 	var siteMenuClone = function() {
 
@@ -290,5 +289,32 @@ jQuery(document).ready(function($) {
 	  })
 	}
 	swiperSetting();
-
+    setVisability();
 });
+
+function login() {
+    var email = document.getElementById("passEmail").value;
+    var pass = document.getElementById("passPassword").value;
+    
+    if (email === "a@a.pl" && pass === "admin1") {
+        $('#exampleModalCenter').modal('hide');
+        isLogged = true;
+        setVisability();
+    }
+}
+
+function setVisability() {
+    var uploadButton = document.getElementById("uploadButton");
+    var loginTop = document.getElementById("loginTop");
+    var logoutTop = document.getElementById("logoutTop");
+    uploadButton.style = "display: none";
+    logoutTop.style = "display: none";
+    console.log(isLogged);
+    console.log(uploadButton.style);
+    
+    if (isLogged) {
+        uploadButton.style = "display: block";
+        loginTop.style = "display: none !important";
+        logoutTop.style = "display: list-item !important";
+    }
+}
