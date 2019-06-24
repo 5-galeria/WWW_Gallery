@@ -1,3 +1,10 @@
+<?php
+
+include("funkcje.php");
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -20,6 +27,21 @@
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.ajax(
+        {
+                url: 'funkcje.php',
+                type: 'POST',
+                
+            }
+    );
+  });
+});
+</script>
 </head>
 
 <body>
@@ -192,9 +214,22 @@
                             </a>
                         </div>
                     </div>
+					<div class="row col-12 justify-content-center">
+					        <div id="div1"><h2>Find faces on photos: </h2></div>
+
+							
+					</div>
+					<div class="row col-12 justify-content-center">
+					        
+
+							<button ><i class="fas fa-search"></i>Find</button>
+					</div>
                 </div>
             </div>
         </div>
+        <div>
+
+</div>
 
         <div class="footer py-4">
             <div class="container-fluid text-center">
