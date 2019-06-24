@@ -4,7 +4,7 @@ from os import walk
 from os import mkdir
 
 # Get user supplied values
-dirPath = sys.argv[1]
+dirPath = "images/Portrait"
 
 f = []
 for (dirpath, dirnames, filenames) in walk(dirPath):
@@ -14,14 +14,17 @@ print(f)
 
 haar = "haarcascade_default.xml"
 
-mkdir(dirPath + "/detected")
+try:
+    mkdir(dirPath + "/detected")
+except:
+    pass
 
 try:
     for image_F in f:
         # Get user supplied values
         #imagePath = 'images/' + image_F
         imagePath = dirPath + '/' + image_F
-        print(imagePath)
+        print("imagePath: " + imagePath)
         cascPath = haar
 
         # Create the haar cascade
