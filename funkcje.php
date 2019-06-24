@@ -18,7 +18,7 @@
 <?php
 	if(isset($_POST['GO']))
 	{
-		shell_exec("python mkdir.py");
+		shell_exec("python detectFaces.py");
 		echo"success";
 	}
 ?>
