@@ -7,7 +7,14 @@
   </head>
  <body>
  
+	<script>
+$(document).ready(function(){
 
+  console.log("hello2");
+   
+ 
+});
+</script>
    <form method="post">
 
     <input type="submit" value="GO" name="GO">
@@ -16,9 +23,8 @@
 </html>
 
 <?php
-	if(isset($_POST['GO']))
-	{
+
 		shell_exec("python detectFaces.py");
 		echo"success";
-	}
+	
 ?>
